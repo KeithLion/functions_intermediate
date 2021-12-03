@@ -12,3 +12,6 @@ sports_directory = {
     'soccer': ['Messi', 'Ronaldo', 'Rooney']
 }
 sports_directory['soccer'][0] = 'Andres'
+z = [{'x': 10, 'y': 20}]
+z[0]['y'] = 30
+print(z[0])
