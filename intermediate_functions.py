@@ -5,3 +5,5 @@ students = [
     {'first_name':  'Michael', 'last_name': 'Jordan'},
     {'first_name': 'John', 'last_name': 'Rosales'}
 ]
+student[0]['lasst_name'] = 'Bryant'
+print(student[0])
