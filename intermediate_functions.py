@@ -15,3 +15,18 @@ sports_directory['soccer'][0] = 'Andres'
 z = [{'x': 10, 'y': 20}]
 z[0]['y'] = 30
 print(z[0])
+
+students = [
+    {'first_name':  'Michael', 'last_name': 'Jordan'},
+    {'first_name': 'John', 'last_name': 'Rosales'},
+    {'first_name': 'Mark', 'last_name': 'Guillen'},
+    {'first_name': 'KB', 'last_name': 'Tonel'}
+]
+
+def name_list(names):
+    for i in range (0,len(names)):
+        new_list=''
+        for key,val in names[i].items():
+            new list += f'{key} - {val}, '
+        print(new_list)
+name_list(students)
