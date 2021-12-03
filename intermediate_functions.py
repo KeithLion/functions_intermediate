@@ -5,5 +5,10 @@ students = [
     {'first_name':  'Michael', 'last_name': 'Jordan'},
     {'first_name': 'John', 'last_name': 'Rosales'}
 ]
-student[0]['lasst_name'] = 'Bryant'
+student[0]['last_name'] = 'Bryant'
 print(student[0])
+sports_directory = {
+    'basketball': ['Kobe', 'Jordan', 'James', 'Curry'],
+    'soccer': ['Messi', 'Ronaldo', 'Rooney']
+}
+sports_directory['soccer'][0] = 'Andres'
